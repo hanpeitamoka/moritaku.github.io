@@ -1,0 +1,110 @@
+.home{
+    margin-bottom: 0px;
+    color: var(--main-bg-color);
+    background:url(./image/home.JPG) center no-repeat;
+
+    background-position-y: 80%;
+    -moz-background-size:cover;
+    background-size:cover;
+    border-radius: 0;
+}
+.game-home {
+    margin-bottom: 0px;
+    color: var(--main-bg-color);
+    background:url(./image/) center no-repeat;
+    background: #ff0084;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-position-y: 70%;
+    -moz-background-size:cover;
+    background-size:cover;
+    border-radius: 0;
+  }
+
+  .index-home {
+    margin-bottom: 0px;
+    color: var(--main-bg-color);
+    background:url(./images/header-bg.jpg) center no-repeat;
+    background-position-y: 70%;
+    -moz-background-size:cover;
+    background-size:cover;
+    border-radius: 0;
+    /* background-color: var(--accent-color);
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    overflow: hidden; */
+  }
+
+
+.back{
+margin-bottom: 0px;
+color: var(--main-bg-color);
+background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-position-y: 70%;
+-moz-background-size:cover;
+background-size:cover;
+border-radius: 0;
+}
+.mypage{
+  margin-top: 5%;
+  font-family: 'Kosugi', sans-serif;
+}
+
+.balloon1-left {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+  }
+  
+  .balloon1-left:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #e0edff;
+  }
+  
+  .balloon1-left p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .balloon1-right {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+  }
+  
+  .balloon1-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+  }
+  
+  .balloon1-right p {
+    margin: 0;
+    padding: 0;
+  }
