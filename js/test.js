@@ -1,4 +1,8 @@
-
-jQuery(window).on('load', function() {
-    jQuery('#loader-bg').hide();
+$(window).on('load', function() {
+    $('#loader-bg');
+    setTimeout("close()", 2000);
 });
+
+function close(){
+    $('#loader-bg').hide(); 
+}

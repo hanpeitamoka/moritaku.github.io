@@ -110,14 +110,23 @@ html, body {
 .iScrollIndicator{
     border: 0 !important;
 }
-.back-l2{
-    background: url('../image/purikone_right.jpg');
+.back-l1{
+    background: url('../image/ame-siki1.png');
     background-size:cover;
     background-position: right; /* 背景画像を右に寄せる */
 }
- 
+.back-r1{
+    background: url('../image/ame-siki2.png');
+    background-size:cover;
+    background-position: left; /* 背景画像を左に寄せる */
+}
+.back-l2{
+    background: url('../image/oncen-siki1.png');
+    background-size:cover;
+    background-position: right; /* 背景画像を右に寄せる */
+}
 .back-r2{
-    background: url('../image/purikone_left.jpg');
+    background: url('../image/oncen-siki2.png');
     background-size:cover;
     background-position: left; /* 背景画像を左に寄せる */
 }
